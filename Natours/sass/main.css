@@ -127,6 +127,13 @@ body {
   animation-fill-mode: backwards;
 }
 
+.row {
+  max-width: 114rem;
+  background-color: #eee;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
 .header {
   position: relative;
   height: 95vh;
