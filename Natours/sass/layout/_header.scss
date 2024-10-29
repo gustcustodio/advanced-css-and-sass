@@ -9,6 +9,7 @@
     url(../img/hero.jpg);
   background-size: cover;
   background-position: top; /* the top of image stays on top of container */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */ /* ! triangle */
   /* ! polygon(x1 y1, x2 y2, x3 y3, x4 y4, xn yn) */
@@ -31,4 +32,3 @@
     text-align: center;
   }
 }
-
